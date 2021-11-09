@@ -34,3 +34,9 @@ fs.writeFile('mensaje.txt', salida, (err) => {
     console.log('mensaje.txt creado');
 });
 ```
+
+También es posible utlizar **FileSync** el cual es mucho más simple de usar, su sintáxis es la siguiente: 
+
+```javascript
+fs.writeFileSync("mensaje.txt", salida);
+```
